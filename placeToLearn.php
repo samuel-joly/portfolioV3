@@ -1,8 +1,8 @@
 
 <div class='d-flex col-lg-12 col-md-12 col-11 row justify-content-lg-center justify-content-sm-center p-0 '>
 	<div class='row col-lg-12 m-0 p-0 d-flex justify-content-center mb-4'>
-		<p class='h3 m-0 mr-1  p-0 col-lg-2 col-12 text-lg-right text-center ' >Where I've learned</p>
-		<span style='height:2px; background:black;align-self:center;' class='d-flex col-lg-6 col-md-11 col-12 justify-self-lg-start justify-self-center'></span>
+		<p class='h3 m-0 mr-1  p-0 col-lg-2 col-12 text-lg-left text-center ' >Where I learn</p>
+		<span style='height:2px; background:black;align-self:center;' class='d-flex col-lg-7 col-md-11 col-12 justify-self-lg-start justify-self-center'></span>
 	</div>
 
 	<div class='col-lg-9 col-12 row row-cols-lg-3 row-cols-md-3 row-cols-2 d-flex justify-content-center'>
@@ -15,8 +15,8 @@
 			<div class='card-body'>
 				<h5 class='card-title'>LaPlateforme_</h5>
 				<p class='card-text text-justify'>
-					LaPlateforme is a french digital school based in Marseille created by the <a href='#'>Top 20</a> and directed by <a href='#'>Cyril Zimmerman</a>
-					in collaboration with <a href='#'>les Apprentis d'auteuil</a>.
+					<strong>Current studies in </strong>LaPlateforme from 09/2019 to now. It is a new digital school based in Marseille 
+					created by the <a href='#'>Top 20</a> and directed by <a href='#'>Cyril Zimmerman</a> in collaboration with <a href='#'>les Apprentis d'auteuil</a>.
 				</p>
 			</div>
 
@@ -29,13 +29,13 @@
 			</div>
 
 			<div class='card-body'>
-				<h5 class='card-title'>LaPlateforme_</h5>
+				<h5 class='card-title'>OpenClassrooms</h5>
 				<p class='card-text text-justify'>
-					LaPlateforme is a french digital school based in Marseille created by the <a href='#'>Top 20</a> and directed by <a href='#'>Cyril Zimmerman</a>
-					in collaboration with <a href='#'>les Apprentis d'auteuil</a>.
+					One of the best site I know, made in 2002 by <a href=''>M@teo21</a>.
+					This is an online free learning site where a lot of subject (from <a href='#'>designing</a> to <a href=''>server maintenace</a>) are explained.
+					It is one of my main source of fresh knowledge.
 				</p>
 			</div>
-
 		</div>
 
 		<div class='card d-flex col-lg-4 col-md-10 col-sm-12 col-12 border-0'>
@@ -45,10 +45,10 @@
 			</div>
 
 			<div class='card-body'>
-				<h5 class='card-title '>LaPlateforme_</h5>
+				<h5 class='card-title '>Stack Overflow</h5>
 				<p class='card-text text-justify'>
-					LaPlateforme is a french digital school based in Marseille created by the <a href='#'>Top 20</a> and directed by <a href='#'>Cyril Zimmerman</a>
-					in collaboration with <a href='#'>les Apprentis d'auteuil</a>.
+					<a href='#'>Stack overflow</a> is a Q&A website mostly for programer. It is a reference for solving programing problems. It learn you that almost every
+					problem you will face are already solved there.
 				</p>
 			</div>
 		</div>
