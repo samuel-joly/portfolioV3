@@ -12,8 +12,8 @@
 <div class='modal fade' role='dialog' aria-hidden='true' id='toast<?=$project["id"]?>' aria-labelledby='titletoast<?=$project["id"]?>' style='min-width:100vw;'>
 	<div class="modal-dialog modal-dialog-centered modal-xl" role="document">
 		<div class='modal-content'>
-			<div class='modal-header p-2'>
-				<h5 class='modal-title m-0 p-0' id='titletoast<?=$project["id"]?>'><?=$project["title"]?></h5>
+			<div class='modal-header d-flex align-items-center pl-4'>
+				<h5 class='modal-title ml-2' id='titletoast<?=$project["id"]?>'><?=$project["title"]?></h5>
 				<button type="button" class="ml-2 mb-1 close" aria-label="close" data-dismiss='modal'>
 				      <span aria-hidden="true">&times;</span>
 				</button>
@@ -22,7 +22,7 @@
 				<div class='container-fluid'>
 					<div class='row d-flex justify-content-center align-items-center'>
 
-						<div class='col-8 carousel slide' id='carouselProject<?=$project["id"]?>' data-ride='carousel'>
+						<div class='col-lg-8 col-12 carousel slide' id='carouselProject<?=$project["id"]?>' data-ride='carousel'>
 							<ol class="carousel-indicators">
 								<?php
 									$projects->set_slider_marker($project["id"]);	
@@ -47,8 +47,10 @@
 
 						</div>
 
-						<div class='col-4'>
-							<?=$project["description"]?>
+						<div class='col-lg-4 col-12 row d-flex justify-content-center p-2'>
+							<p class='col-12 m-lg-0 mt-2'><?=$project["description"]?></p>
+							<span class='col-6 '><?=$project["able"]?></span>
+							<span class='col-6 '><?=$project["tech"]?></span>
 						</div>
 
 					</div>

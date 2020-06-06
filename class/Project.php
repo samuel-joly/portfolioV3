@@ -12,7 +12,7 @@ class Project extends Bdd{
 		}
 		else
 		{
-			$stmt = $this->pdo->prepare("SELECT projects.id, projects.title, projects.topImg FROM projects
+			$stmt = $this->pdo->prepare("SELECT projects.id, projects.description, projects.tech, projects.able, projects.title, projects.topImg FROM projects
 						     INNER JOIN project_category_tag ON projects.id = project_category_tag.id_project       
 						     INNER JOIN project_category ON project_category_tag.id_category = project_category.id
 						     WHERE project_category.id =?;");
@@ -28,18 +28,21 @@ class Project extends Bdd{
 		$imgs = [];
 		
 		foreach(scandir("css/assets/projects/projects-slider/".$id."/") as $img) { 
-			if($count == 0) {
-		?>
-				<li data-target="#carouselProject<?=$id?>" data-slide-to="<?=$count?>" class="active"></li> <?php
-			} else { ?>
-				<li data-target="#carouselProject<?=$id?>" data-slide-to="<?=$count?>"></li> <?php
-			}
 			if(!is_dir($img)) {
+				if($count == 0) {
+			?>
+					<li data-target="#carouselProject<?=$id?>" data-slide-to="<?=$count?>" class="active"></li> <?php
+				} else { ?>
+					<li data-target="#carouselProject<?=$id?>" data-slide-to="<?=$count?>"></li> <?php
+				}
+
 				$imgs[] .= $img;
 			}
-			$this->images = $imgs;
+
 			$count++;
 		}
+
+		$this->images = $imgs;
 	}
 
 
