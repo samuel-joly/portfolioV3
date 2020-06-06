@@ -22,29 +22,29 @@
 				<div class='container-fluid'>
 					<div class='row d-flex justify-content-center align-items-center'>
 
-						<div class='col-8 carousel slide' id='carouselProject' data-ride='carousel'>
+						<div class='col-8 carousel slide' id='carouselProject<?=$project["id"]?>' data-ride='carousel'>
 							<ol class="carousel-indicators">
 								<?php
-								$count = 0;
-								$imgs = [];
-								
-								foreach(scandir("css/assets/projects/projects-slider/".$project["id"]."/") as $img) { 
-									if($count == 0) {
-								?>
-										<li data-target="#carouselProject" data-slide-to="<?=$count?>" class="active"></li> <?php
-									} else { ?>
-										<li data-target="#carouselProject" data-slide-to="<?=$count?>"></li> <?php
-									}
-									if(!is_dir($img)) {
-										$imgs[] .= $img;
-									}
-									$count++;
-								}
-
-								var_dump($imgs);
-
+									$projects->set_slider_marker($project["id"]);	
 								?>
 							</ol>
+
+							<div class='carousel-inner'>
+								<?php
+									$projects->set_slider_image($project["id"]);
+								?>
+							</div>
+
+							<a class="carousel-control-prev" href="#carouselProject<?=$project["id"]?>" role="button" data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+
+							<a class="carousel-control-next" href="#carouselProject<?=$project["id"]?>" role="button" data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+
 						</div>
 
 						<div class='col-4'>

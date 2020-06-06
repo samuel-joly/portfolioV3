@@ -2,6 +2,8 @@
 require("Bdd.php");
 
 class Project extends Bdd{
+	
+	public $images = "";
 
 	public function get_project_from_type($type="") {
 		
@@ -17,6 +19,49 @@ class Project extends Bdd{
 			$stmt->execute(array($type));
 			return	$stmt->fetchAll(PDO::FETCH_ASSOC);
 		}
+	}
+
+
+	public function set_slider_marker($id) {
+		
+		$count = 0;
+		$imgs = [];
+		
+		foreach(scandir("css/assets/projects/projects-slider/".$id."/") as $img) { 
+			if($count == 0) {
+		?>
+				<li data-target="#carouselProject<?=$id?>" data-slide-to="<?=$count?>" class="active"></li> <?php
+			} else { ?>
+				<li data-target="#carouselProject<?=$id?>" data-slide-to="<?=$count?>"></li> <?php
+			}
+			if(!is_dir($img)) {
+				$imgs[] .= $img;
+			}
+			$this->images = $imgs;
+			$count++;
+		}
+	}
+
+
+	public function set_slider_image($id) {
+		
+		$count = 0;
+		foreach($this->images as $img) {  
+
+			if($count == 0) { ?>
+				
+				<div class='carousel-item active'>
+
+		<?php   } else 		{ ?>
+
+				<div class='carousel-item'>
+
+		<?php   } ?>
+
+			<img src='css/assets/projects/projects-slider/<?=$id?>/<?=$img?>' class='d-bloc w-100' alt='<?=pathinfo($img, PATHINFO_BASENAME)?>'/>
+		</div>
+
+		<?php $count++; } 
 	}
 }
 

@@ -3,3 +3,5 @@ $(function () {
 })
 
 $().button('toggle');
+
+$('.carousel').carousel();

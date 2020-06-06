@@ -29,6 +29,7 @@ $(document).ready(function() {
 	$("#project-type input").click(function(e){
 		type = $(e.target).attr("id");
 		$("#project-container .project-card").remove();
+		$("#project-container .modal").remove();
 		get_project_from_type(type);
 
 	})
