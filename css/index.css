@@ -22,3 +22,11 @@
 .project-card {
 	transition:all 0.4s ease;
 }
+
+.custom-toast {
+
+	position:absolute;
+	width:100vw;
+	height:100vh;
+
+}
