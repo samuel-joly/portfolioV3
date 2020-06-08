@@ -24,6 +24,7 @@ function show_project_toast(target) {
 
 get_project_from_type()
 
+
 $(document).ready(function() {
 
 	$("#project-type input").click(function(e){
@@ -31,7 +32,6 @@ $(document).ready(function() {
 		$("#project-container .project-card").remove();
 		$("#project-container .modal").remove();
 		get_project_from_type(type);
-
 	})
 
 	
@@ -40,5 +40,7 @@ $(document).ready(function() {
 			show_project_toast(e.target);
 		}
 	})
+
+
 
 })

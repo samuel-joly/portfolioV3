@@ -12,7 +12,7 @@ class Project extends Bdd{
 		}
 		else
 		{
-			$stmt = $this->pdo->prepare("SELECT projects.id, projects.description, projects.tech, projects.able, projects.title, projects.topImg FROM projects
+			$stmt = $this->pdo->prepare("SELECT projects.id, projects.description, projects.tech, projects.able, projects.git, projects.file, projects.link, projects.title, projects.topImg FROM projects
 						     INNER JOIN project_category_tag ON projects.id = project_category_tag.id_project       
 						     INNER JOIN project_category ON project_category_tag.id_category = project_category.id
 						     WHERE project_category.id =?;");

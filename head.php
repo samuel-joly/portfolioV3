@@ -44,4 +44,19 @@
 					</a>
 				</div>
 
+				<div class='col-12 ml-0 mr-0 pl-0 mt-lg-4 mb-4 mb-lg-0 d-flex justify-content-between'>
+					<img src='css/assets/languages/ht-lo.png' style='width:2em;' alt='HTML5' data-toggle='tooltip'  data-placement='bottom' title='HTML 5'/>
+					<img src='css/assets/languages/cs-lo.png' style='width:2em;' alt='CSS3' data-toggle='tooltip'  data-placement='bottom' title='CSS 3'/>
+					<img src='css/assets/languages/php-lo.png' style='width:3.2em;' alt='PHP' data-toggle='tooltip'  data-placement='bottom' title='PHP'/>
+					<img src='css/assets/languages/js-lo.png'  style='width:2.3em;' alt='JavaScript' data-toggle='tooltip'  data-placement='bottom' title='JavaScript'/>
+					<img src='css/assets/languages/git-lo.png' style='width:2.3em;' alt='Git' data-toggle='tooltip'  data-placement='bottom' title='Git'/>
+					<img src='css/assets/languages/bo-lo.png' style='width:2em;' alt='Bootstrap' data-toggle='tooltip'  data-placement='bottom' title='Bootstrap'/>
+					<img src='css/assets/languages/wp-lo.png' style='width:2.3em;' alt='Wordpress' data-toggle='tooltip'  data-placement='bottom' title='WordPress'/>
+					<img src='css/assets/languages/sq-lo.png'  style='width:2em;' alt='SQL' data-toggle='tooltip'  data-placement='bottom' title='MySQL'/>
+					<img src='css/assets/languages/py-lo.png'  style='width:2.3em;' alt='Python' data-toggle='tooltip'  data-placement='bottom' title='Python'/>
+					<img src='css/assets/languages/c-lo.png'  style='width:2.3em;' alt='C' data-toggle='tooltip'  data-placement='bottom' title='C'/>
+					<img src='css/assets/languages/li-lo.png' style='width:2em;' alt='Linux' data-toggle='tooltip'  data-placement='bottom' title='Linux'/>
+					<img src='css/assets/languages/vi-lo.png' style='width:2.3em;' alt='Vim' data-toggle='tooltip'  data-placement='bottom' title='Vim'/>
+				</div>
+
 			</div>
