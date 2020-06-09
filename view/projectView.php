@@ -1,16 +1,16 @@
 <?php ob_start(); ?>
-<div class='col-lg-4 col-md-6 col-sm-6 col-12 row ml-1 mt-1 project-card ' >
-	<div style='height:19em;width:100%;background:url("<?=$project["topImg"]?>");background-size:100%;background-repeat:no-repeat;background-position:center;' 
+<div class='col-lg-4 col-10  row ml-1 m-lg-0 m-md-1 project-card ' style='height:fit-content;'>
+	<div style='height:fit-content;width:100%;background:url("<?=$project["topImg"]?>");background-size:100%;background-repeat:no-repeat;background-position:center;' 
 		class='rounded d-flex justify-content-center align-items-center project-img m-0 p-0 col-12 rounded' style='background:#2c2c2c;'>
-		<div class='project-body col-12 d-flex justify-content-center align-items-center' id='<?=$project["id"]?>'>
-			<img src='css/assets/projectCover.png' style='height:19em;' id='<?=$project["id"]?>' class='projectTopImg'/>
+		<div class='project-body col-12 d-flex justify-content-center align-items-center' id='<?=$project["id"]?>' style='height:fit-content;'>
+			<img src='css/assets/projectCover.png' style='width:100%;'id='<?=$project["id"]?>' class='projectTopImg'/>
 		</div>
 	</div>
 
 </div>
 
 <div class='modal fade' role='dialog' aria-hidden='true' id='toast<?=$project["id"]?>' aria-labelledby='titletoast<?=$project["id"]?>' style='min-width:100vw;'>
-	<div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+	<div class="modal-dialog modal-dialog-centered modal-xl custom-modal" role="document">
 		<div class='modal-content'>
 			<div class='modal-header d-flex align-items-center pl-4 pb-1 pt-1'>
 				<h5 class='modal-title ml-2' id='titletoast<?=$project["id"]?>'><?=$project["title"]?></h5>
@@ -49,8 +49,8 @@
 
 						<div class='col-lg-4 col-12 row p-2 d-flex justify-content-center' id='specs'>
 							<p class='col-12 m-lg-0 mt-2'><?=$project["description"]?></p>
-							<span class='col-lg-12 col-md-12 col-7'><?=$project["able"]?></span>
-							<span class='col-lg-12 col-md-12 col-5'><?=$project["tech"]?></span>
+							<span class='col-lg-12 col-md-12 col-12'><?=$project["able"]?></span>
+							<span class='col-lg-12 col-md-12 col-12'><?=$project["tech"]?></span>
 						</div>
 
 					</div>

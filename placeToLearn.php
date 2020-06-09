@@ -1,13 +1,13 @@
 
 <div class='d-flex col-lg-12 col-md-12 col-11 row justify-content-lg-center justify-content-sm-center p-0 '>
 	<div class='row col-lg-12 m-0 p-0 d-flex justify-content-center mb-4'>
-		<p class='h3 m-0 mr-1  p-0 col-lg-2 col-12 text-lg-left text-center ' >Where I learn</p>
+		<p class='h3 m-0 mr-1  p-0 col-lg-2 col-12 text-lg-left text-center section__title' >Where I learn</p>
 		<span style='height:2px; background:black;align-self:center;' class='d-flex col-lg-7 col-md-11 col-12 justify-self-lg-start justify-self-center'></span>
 	</div>
 
 	<div class='col-lg-9 col-12 row row-cols-lg-3 row-cols-md-3 row-cols-2 d-flex justify-content-center'>
 
-		<div class='card col-lg-4 col-md-6 col-sm-6 col-12 border-0'>
+		<div class='card col-lg-4 col-md-10 border-0 learn--card'>
 			<div style='height:15em;width:100%;' class='d-flex justify-content-center align-items-center'>
 				<img src='css/assets/lp-logo.png' class='card-img-top align-self-center' alt='Logo LaPlateforme_' style='width:20em;height:16em;'/>
 			</div>
@@ -22,7 +22,7 @@
 
 		</div>
 
-		<div class='card d-flex col-lg-4 col-md-6 col-sm-6 col-12 border-0'>
+		<div class='card d-flex col-lg-4 col-md-10 border-0 learn--card'>
 
 			<div style='height:15em;width:100%;' class='d-flex justify-content-center align-items-center'>
 				<img src='css/assets/oc-logo.png' class='card-img-top align-self-center' alt='Logo Open Classroom' style='width:20em;height:13em;'/>
@@ -38,7 +38,7 @@
 			</div>
 		</div>
 
-		<div class='card d-flex col-lg-4 col-md-10 col-sm-12 col-12 border-0'>
+		<div class='card d-flex col-lg-4 col-md-10 col-sm-12 col-12 border-0 learn--card'>
 
 			<div style='height:15em;width:100%;' class='d-flex justify-content-center align-items-center'>
 				<img src='css/assets/so-logo.png' class='card-img-top align-self-center ' alt='Logo Stack Overflow' style='width:24em;height:6em;'/>

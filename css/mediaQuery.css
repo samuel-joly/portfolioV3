@@ -1,0 +1,120 @@
+@media only screen and (max-device-width:569px) {
+
+	#head__pres__name {
+		font-size:80px !important;
+	}
+
+	#head__pres__title {
+		font-size:50px !important; 
+	}
+
+	#head__pres__contact {
+		font-size:37px !important;
+	}
+
+	#head__descr {
+		font-size:50px !important;
+	}
+
+	.head__pres__img {
+		height:3.5em !important;
+	}
+	
+	#head__descr__lang img {
+		height:4em !important;
+	}
+
+	.section__title {
+		font-size:70px !important;
+	}
+
+	.custom-modal {
+		max-width:75vw !important;	
+		font-size:40px !important;
+	}
+
+	.modal-title {
+		font-size:50px;
+	}
+
+	.modal-title .close span {
+		font-size:50px !important;
+	}
+
+	#project-type {
+		font-size:40px !important;
+	}
+
+	.learn--card {
+		font-size:40px !important;
+	}
+
+	.card-title {
+		font-size:50px !important;
+	}
+
+	.modal-footer .btn {
+		font-size:40px !important;
+	}
+
+	.carousel {
+		height:15em !important;
+	}
+}
+
+@media only screen and (min-width:600px) {
+
+	#head__pres__name {
+		font-size:45px;
+	}
+
+	#head__pres__title {
+		font-size:35px;
+	}
+
+	#head__pres__contact {
+		font-size:27px;
+	}
+
+	#head__descr {
+		font-size:27px;
+	}
+	
+	.head__pres__img {
+		height:1.7em;
+	}
+
+	#head__descr__lang img {
+		height:2.5em ;
+	}
+}
+
+@media only screen and (min-width:992px) {
+
+	#head__pres__name {
+		font-size:30px;
+	}
+
+	#head__pres__title {
+		font-size:20px;
+	}
+
+	#head__pres__contact {
+		font-size:17px;
+	}
+
+	#head__descr {
+		font-size:20px;
+	}
+
+	#head__descr__lang img {
+		height:2.5em ;
+	}
+
+	.carousel {
+		height:30em;
+		display:flex;
+		align-items:center;
+	}
+		
+}

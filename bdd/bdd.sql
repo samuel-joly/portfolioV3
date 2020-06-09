@@ -26,7 +26,7 @@ CREATE TABLE `project_category` (
   `id` int NOT NULL AUTO_INCREMENT,
   `name` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 ;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -51,7 +51,7 @@ CREATE TABLE `project_category_tag` (
   `id_project` int NOT NULL,
   `id_category` int NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=9;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -75,14 +75,14 @@ CREATE TABLE `projects` (
   `title` varchar(255) NOT NULL,
   `topImg` varchar(255) NOT NULL,
   `id` int NOT NULL AUTO_INCREMENT,
-  `description` text NOT NULL,
-  `tech` text NOT NULL,
+  `description` text,
+  `tech` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
   `able` text NOT NULL,
   `git` varchar(255) NOT NULL,
   `file` varchar(255) NOT NULL,
   `link` text NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=7;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -91,7 +91,7 @@ CREATE TABLE `projects` (
 
 LOCK TABLES `projects` WRITE;
 /*!40000 ALTER TABLE `projects` DISABLE KEYS */;
-INSERT INTO `projects` VALUES ('Sushi restaurant','css/assets/projects/1.png',1,'A simple website for a japanese restaurant where you can set a reservation or just look at the menu.  I re-made another real sushi restaurant website for training and it was a good lesson.<br/><br/>\r\n',' Tech:<br/> <ul> <li>HTML5</li> <li>JS</li> <li>CSS</li> </ul>','It contain :<ul> <li>Home Page</li> <li>Dymanic menu page</li> <li>Booking page with map</li> <li>Gallery with interractive filter</li> </ul>','https://github.com/aze-fortwo/Sshi-restau','','projects/site/Sushi/index.html'),('Bloc note','css/assets/projects/2.png',2,'A little notepad that I bound to a shortkey for quick writing note (mostly about code) but also all sort of thing as philosophy, history or technology. \r\n<br>\r\n','Tech used: <ul > <li>Python</li> <li>Tkinter</li> </ul>','You can : <ul > <li>Create/rename/delete folder/file</li> <li>Make a backup of saved files</li> </ul> ','https://github.com/aze-fortwo/Bloc-Note','projects/download/BlocNote.rar',''),('Online shop','css/assets/projects/3.png',3,'This is one of my favorite school project (before bootstrap). It is a online shop for luxury houses.\r\nThe design is aimed to be modern and practical for the user width basic webshop features.\r\n<br>\r\n',' Tech used: <ul > <li>HTML/CSS</li> <li>PHP</li> </ul>','It contain: <ul > <li>A home page</li> <li>A generated products page with filter</li> <li>A basket with payment page</li> <li>A Back-end for managing the stocks, adding new products, managin users,...</li> </ul> ','https://github.com/samuel-joly/boutique','',''),('Advanced Agenda','css/assets/projects/4.png',4,'This was my first \"big\" project in python, which have to make data about your time going, to focus on what you like. It use bad file saving system but at least you can backup everything and add description to your day/ hours and see some stats on it (very basic stats)<br>\r\n','Tech used: <ul > <li>Python</li> <li>Tkinter</li> <li>MatPlotLib</li> </ul>',' You can : <ul > <li>Save yourt time according to the activity already there</li> <li>Make a graph to have a visual appreciation of the data</li> <li>Backup your saved data</li> </ul>  ','https://github.com/aze-fortwo/Advanced-Agenda','',''),('Password manager','css/assets/projects/5.png',5,'NOT SECURE password manager that allow you to generate password that will match most of the websites needs in term of password format. It store the password linked to the name of your account for future use, and quick copy is here too !\r\n<br>\r\n','  Tech used: <ul > <li>Pytjon</li> <li>Tkinter</li> <li>Pyperclip</li> </ul>','You can : <ul > <li>Add/Change/remove saved password</li> <li>Create new password with most common password parameter</li> <li>Backup your password</li> <li>Quick copy to clipboard</li> </ul>','https://github.com/aze-fortwo/Password-Manager','',''),('Memory game','css/assets/projects/6.png',6,'A cool to code school project named memory game.\r\nBased on the minecraft universe, the rules are simple, finish the game in less hit possible.\r\nIt\'s the card game where you need to find the matching cards.','Tech used: <ul ><li>HTML/CSS</li><li>PHP</li></ul>','You can : <ul ><li>Create/change your account </li><li>Play the game in 3 difficulty</li><li>Access to the lederboard</li><li>Get the list of player</li></ul>','https://github.com/marceau-maubert/memory','','');
+INSERT INTO `projects` VALUES ('Sushi restaurant','css/assets/projects/1.png',1,'A simple website for a japanese restaurant where you can set a reservation or just look at the menu.  I re-made another real sushi restaurant website for training and it was a good lesson.<br/><br/>\r\n',' Tech:<br/> <ul> <li>HTML5</li> <li>JS</li> <li>CSS</li> </ul>','It contain :<ul> <li>Home Page</li> <li>Dymanic menu page</li> <li>Booking page with map</li> <li>Gallery with interractive filter</li> </ul>','https://github.com/aze-fortwo/Sshi-restau','','projects/site/Sushi/index.html'),('Bloc note','css/assets/projects/2.png',2,'A little notepad that I bound to a shortkey for quick writing note (mostly about code) but also all sort of thing as philosophy, history or technology. \r\n<br>\r\n','Tech used: <ul > <li>Python</li> <li>Tkinter</li> </ul>','You can : <ul > <li>Create/rename/delete folder/file</li> <li>Make a backup of saved files</li> </ul> ','https://github.com/aze-fortwo/Bloc-Note','projects-files/Bloc-Note.zip',''),('Online shop','css/assets/projects/3.png',3,'This is one of my favorite school project (before bootstrap). It is a online shop for luxury houses.\r\nThe design is aimed to be modern and practical for the user width basic webshop features.\r\n<br>\r\n',' Tech used: <ul > <li>HTML/CSS</li> <li>PHP</li> </ul>','It contain: <ul > <li>A home page</li> <li>A generated products page with filter</li> <li>A basket with payment page</li> <li>A Back-end for managing the stocks, adding new products, managin users,...</li> </ul> ','https://github.com/samuel-joly/boutique','',''),('Advanced Agenda','css/assets/projects/4.png',4,'This was my first \"big\" project in python, which have to make data about your time going, to focus on what you like. It use bad file saving system but at least you can backup everything and add description to your day/ hours and see some stats on it (very basic stats)<br>\r\n','Tech used: <ul > <li>Python</li> <li>Tkinter</li> <li>MatPlotLib</li> </ul>',' You can : <ul > <li>Save yourt time according to the activity already there</li> <li>Make a graph to have a visual appreciation of the data</li> <li>Backup your saved data</li> </ul>  ','https://github.com/aze-fortwo/Advanced-Agenda','projects-files/Advanced-Agenda.zip',''),('Password manager','css/assets/projects/5.png',5,'NOT SECURE password manager that allow you to generate password that will match most of the websites needs in term of password format. It store the password linked to the name of your account for future use, and quick copy is here too !\r\n<br>\r\n','  Tech used: <ul > <li>Pytjon</li> <li>Tkinter</li> <li>Pyperclip</li> </ul>','You can : <ul > <li>Add/Change/remove saved password</li> <li>Create new password with most common password parameter</li> <li>Backup your password</li> <li>Quick copy to clipboard</li> </ul>','https://github.com/aze-fortwo/Password-Manager','projects-files/Password-UNSAFE.zip',''),('Memory game','css/assets/projects/6.png',6,'A cool to code school project named memory game.\r\nBased on the minecraft universe, the rules are simple, finish the game in less hit possible.\r\nIt\'s the card game where you need to find the matching cards.','Tech used: <ul ><li>HTML/CSS</li><li>PHP</li></ul>','You can : <ul ><li>Create/change your account </li><li>Play the game in 3 difficulty</li><li>Access to the lederboard</li><li>Get the list of player</li></ul>','https://github.com/marceau-maubert/memory','','');
 /*!40000 ALTER TABLE `projects` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -104,4 +104,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-06-08  4:50:06
+-- Dump completed on 2020-06-09  5:51:31

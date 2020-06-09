@@ -1,8 +1,8 @@
 
 <div class='d-flex col-lg-12 col-md-12 col-11 row justify-content-lg-center justify-content-sm-center p-0 ' style='min-height:15em;'>
-	<div class='row col-lg-12 m-0 p-0 d-flex justify-content-center mb-1'>
-		<p class='h3 m-0 mr-1  p-0 col-lg-2 col-12 text-lg-left text-center ' >What I've done</p>
-		<span style='height:2px; background:black;align-self:center;' class='d-flex col-lg-7 col-md-11 col-12 justify-self-lg-start justify-self-center'></span>
+	<div class='row col-lg-12 m-0 p-0 d-flex justify-content-center mb-1 mt-lg-0 mt-md-0 mt-3'>
+		<p class='h3 m-0 mr-1  p-0 col-lg-2 col-12 text-lg-left text-center  section__title' >What I've done</p>
+		<span style='height:2px; background:black;align-self:center;' class='d-flex col-lg-7 col-md-11 col-12 justify-self-lg-start justify-self-center mb-4 mb-lg-0'></span>
 	</div>
 
 	<div class='col-12 row m-0 p-0 d-flex justify-content-center'>
@@ -26,7 +26,7 @@
 
 		</div>
 
-		<div class='col-lg-9 col-12 row row-cols-lg-3 row-cols-2 d-flex justify-content-start align-items-center mb-4' id='project-container' style='min-height:20em;'>
+		<div class='col-lg-9 col-12 row row-cols-lg-3 row-cols-2 d-flex justify-content-lg-start justify-content-center align-items-center mb-4' id='project-container' style='min-height:20em;'>
 
 		</div>
 
