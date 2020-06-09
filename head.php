@@ -34,8 +34,8 @@
 			<div class='col-lg-5 col-md-12 col-11 row d-flex justify-content-center justify-content-lg-start p-0 m-0'>
 
 				<p class='m-lg-0 m-md-2 m-sm-2 p-0 text-lg-left text-center col-md-12' id='head__descr' >
-					Lorem Ipsum Dolor Sit Amet nostre su domine parta dolor Ipsum Dolor Sit Amet nostre su domine parta dolor 
-					sit este  aI psum Dolor Sit Amet nostre su domine parta dolor sit este aleguo
+					I'm a passionate develloper who love to adventure in new techs world since 2017 !
+					I'm mostly confident in web techs as PHP/SQL/HTML/JS I'm familiar with Python,C and soon Shell.
 				</p>
 
 				<div class='col-12 d-lg-flex d-none justify-content-end align-items-center'>
