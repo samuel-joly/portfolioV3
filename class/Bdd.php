@@ -7,7 +7,7 @@ class Bdd {
 
 	public function __construct(){
 		try {
-			$pdo = new PDO("mysql:host=localhost;dbname=portfolio","root","Simoneetnicolasdu13!");
+			$pdo = new PDO("mysql:host=localhost;dbname=portfolio","root","");
 		} catch (Exception $e){
 			echo 'Bdd fail to init PDO, Error: '. $e->getMessage();
 		}
