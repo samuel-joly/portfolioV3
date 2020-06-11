@@ -9,22 +9,27 @@
 
 
 				<div class='row col-lg-12 col-12 p-0 justify-content-center align-items-center '>
-					<a href='#' class='col-5 col-lg-5 p-0 col-md-4 col-sm-4 d-flex text-white justify-content-center align-self-center mt-2' style='transition:all 0.3s ease;background:black;'>
-						<p class='text-white mb-0 p-0 rounded' id='head__pres__contact' style='margin-top:0.1em;'>Get in touch</p>
+					<a href='mailto:samuel.joly@laplateforme.io' class='col-5 col-lg-5 p-0 col-md-4 col-sm-4 d-flex text-white justify-content-center align-self-center mt-2' style='transition:all 0.3s ease;background:black;'>
+						<p  class='text-white mb-0 p-0 rounded head__pres__contact' style='margin-top:0.1em;'>Get in touch</p>
 					</a>
 
+				<div class='row col-lg-12 col-12 p-0 justify-content-center align-items-center d-lg-none '>
+					<a href='documents/CV_JOLY-samuel-en.pdf' class='col-5 col-lg-5 p-0 col-md-4 col-sm-4 d-flex text-white justify-content-center align-self-center mt-2' style='transition:all 0.3s ease;background:black;'>
+						<p  class='text-white mb-0 p-0 rounded head__pres__contact' style='margin-top:0.1em;'>See my CV</p>
+					</a>
+				</div>
 
 					<div class='p-0 m-0 d-flex justify-content-lg-center justify-content-center  col-lg-12 col-md-9 row mt-3'>
 
-						<a href='#' class='d-flex align-items-center m-1' style='color:black;' data-toggle='tooltip'  data-placement='bottom' title='github/Samuel-joly'>
+						<a href='https://github.com/samuel-joly' class='d-flex align-items-center m-1' style='color:black;' data-toggle='tooltip'  data-placement='bottom' title='github/Samuel-joly'>
 							<img src='css/assets/github.png'  class='head__pres__img' />
 						</a>
 
-						<a href='#' class='d-flex align-items-center m-1'style='color:black;' data-toggle='tooltip'  data-placement='bottom' title='LinkedIn/Samuel-joly'>
+						<a href='https://www.linkedin.com/in/samuel-joly-b975a719b/' class='d-flex align-items-center m-1'style='color:black;' data-toggle='tooltip'  data-placement='bottom' title='LinkedIn/Samuel-joly'>
 							<img src='css/assets/linkedIn.png' class='head__pres__img' />
 						</a>
 
-						<a href='mailto:samueljoly0@gmail.com' class='d-flex align-items-center m-1 'style='color:black;' data-toggle='tooltip'  data-placement='bottom' title='Samueljoly0@gmail.com'>
+						<a href='mailto:samuel.joly@laplateforme.io' class='d-flex align-items-center m-1 'style='color:black;' data-toggle='tooltip'  data-placement='bottom' title='samuel.joly@laplateforme.io'>
 							<img src='css/assets/gmail.png'  class='head__pres__img'/>
 						</a>
 					</div>
@@ -35,12 +40,12 @@
 
 				<p class='m-lg-0 m-md-2 m-sm-2 p-0 text-lg-left text-center col-md-12' id='head__descr' >
 					I'm a passionate develloper who love to adventure in new techs world since 2017 !
-					I'm mostly confident in web techs as PHP/SQL/HTML/JS I'm familiar with Python,C and soon Shell.
+					I'm mostly confident in web techs as PHP/SQL/HTML/JS I'm familiar with Python,C and Linux.
 				</p>
 
 				<div class='col-12 d-lg-flex d-none justify-content-end align-items-center'>
-					<a class='btn btn-primary d-flex align-items-center'  href='#' style='text-decoration:none;height:1.6em;'>
-						See more
+					<a class='btn btn-primary d-flex align-items-center'  href='documents/CV_JOLY-samuel-en.pdf' style='text-decoration:none;height:1.6em;'>
+						See my CV
 					</a>
 				</div>
 

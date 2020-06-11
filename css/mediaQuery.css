@@ -1,3 +1,10 @@
+#head__descr__lang img {
+	height:35px;
+}
+
+.head__pres__img {
+	height:35px ;
+}
 @media only screen and (max-device-width:569px) {
 
 	#head__pres__name {
@@ -8,7 +15,7 @@
 		font-size:50px !important; 
 	}
 
-	#head__pres__contact {
+	.head__pres__contact {
 		font-size:37px !important;
 	}
 
@@ -17,11 +24,11 @@
 	}
 
 	.head__pres__img {
-		height:3.5em !important;
+		height:70px !important;
 	}
 	
 	#head__descr__lang img {
-		height:4em !important;
+		height:60px !important;
 	}
 
 	.section__title {
@@ -72,7 +79,7 @@
 		font-size:35px;
 	}
 
-	#head__pres__contact {
+	.head__pres__contact {
 		font-size:27px;
 	}
 
@@ -81,7 +88,7 @@
 	}
 	
 	.head__pres__img {
-		height:1.7em;
+		height:50px;
 	}
 
 	#head__descr__lang img {
@@ -99,7 +106,7 @@
 		font-size:20px;
 	}
 
-	#head__pres__contact {
+	.head__pres__contact {
 		font-size:17px;
 	}
 
@@ -109,6 +116,10 @@
 
 	#head__descr__lang img {
 		height:2.5em ;
+	}
+
+	.head__pres__img {
+		height:50px;
 	}
 
 	.carousel {

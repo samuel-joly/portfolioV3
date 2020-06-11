@@ -15,8 +15,8 @@
 			<div class='card-body'>
 				<h5 class='card-title'>LaPlateforme_</h5>
 				<p class='card-text text-justify'>
-					<strong>Current studies in </strong>LaPlateforme from 09/2019 to now. It is a new digital school based in Marseille 
-					created by the <a href='#'>Top 20</a> and directed by <a href='#'>Cyril Zimmerman</a> in collaboration with <a href='#'>les Apprentis d'auteuil</a>.
+					<strong>Current studies in </strong><a href='https://laplateforme.io'>LaPlateforme</a> from 09/2019 to now. It is a new digital school based in Marseille 
+					created by the <a href='https://www.clubtop20.com/'>Top 20</a> and directed by <a href='https://www.linkedin.com/in/cyrilzimmermann/'>Cyril Zimmerman</a> in collaboration with <a href='https://www.apprentis-auteuil.org/'>les Apprentis d'auteuil</a>.
 				</p>
 			</div>
 
@@ -31,8 +31,8 @@
 			<div class='card-body'>
 				<h5 class='card-title'>OpenClassrooms</h5>
 				<p class='card-text text-justify'>
-					One of the best site I know, made in 2002 by <a href=''>M@teo21</a>.
-					This is an online free learning site where a lot of subject (from <a href='#'>designing</a> to <a href=''>server maintenace</a>) are explained.
+					One of the best site I know, made in 2002 by <a href='https://openclassrooms.com'>M@teo21</a>.
+					This is an online free learning site where a lot of subject (from <a href='https://openclassrooms.com/fr/courses/3013836-initiez-vous-au-design-thinking'>designing</a> to <a href='https://openclassrooms.com/fr/courses/2356316-montez-un-serveur-de-fichiers-sous-linux'>server creation</a>) are explained.
 					It is one of my main source of fresh knowledge.
 				</p>
 			</div>
@@ -47,7 +47,7 @@
 			<div class='card-body'>
 				<h5 class='card-title '>Stack Overflow</h5>
 				<p class='card-text text-justify'>
-					<a href='#'>Stack overflow</a> is a Q&A website mostly for programer. It is a reference for solving programing problems. It learn you that almost every
+					<a href='https://stackoverflow.com'>Stack overflow</a> is a Q&A website mostly for programer. It is a reference for solving programing problems. It learn you that almost every
 					problem you will face are already solved there.
 				</p>
 			</div>
