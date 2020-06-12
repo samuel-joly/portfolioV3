@@ -7,7 +7,7 @@
 
 	<div class='col-lg-9 col-12 row row-cols-lg-3 row-cols-md-3 row-cols-2 d-flex justify-content-center'>
 
-		<div class='card col-lg-4 col-md-10 border-0 learn--card'>
+		<div class='card col-lg-4 col-md-10 col-12  border-0 learn--card'>
 			<div style='height:15em;width:100%;' class='d-flex justify-content-center align-items-center'>
 				<img src='css/assets/lp-logo.png' class='card-img-top align-self-center' alt='Logo LaPlateforme_' style='width:20em;height:16em;'/>
 			</div>
@@ -22,7 +22,7 @@
 
 		</div>
 
-		<div class='card d-flex col-lg-4 col-md-10 border-0 learn--card'>
+		<div class='card d-flex col-lg-4 col-md-10 col-12 border-0 learn--card'>
 
 			<div style='height:15em;width:100%;' class='d-flex justify-content-center align-items-center'>
 				<img src='css/assets/oc-logo.png' class='card-img-top align-self-center' alt='Logo Open Classroom' style='width:20em;height:13em;'/>

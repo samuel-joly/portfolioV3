@@ -1,5 +1,5 @@
 <?php ob_start(); ?>
-<div class='col-lg-4 col-10  row ml-1 m-lg-0 m-md-1 project-card ' style='height:fit-content;'>
+<div class='col-lg-4 col-md-5 col-sm-5 col-10  row ml-1 m-lg-0 m-md-1 project-card ' style='height:fit-content;'>
 	<div style='height:fit-content;width:100%;background:url("<?=$project["topImg"]?>");background-size:100%;background-repeat:no-repeat;background-position:center;' 
 		class='rounded d-flex justify-content-center align-items-center project-img m-0 p-0 col-12 rounded' style='background:#2c2c2c;'>
 		<div class='project-body col-12 d-flex justify-content-center align-items-center' id='<?=$project["id"]?>' style='height:fit-content;'>
