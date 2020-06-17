@@ -1,6 +1,6 @@
 function get_project_from_type(type) {
 	$.ajax({
-		url:"projectController.php",
+		url:"../projectController.php",
 		method:"get",
 		data:{"action":"get_project_from_type" , "type":type},
 		success:function(data) {

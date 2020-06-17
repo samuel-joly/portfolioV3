@@ -6,13 +6,15 @@ class Project extends Bdd{
 	public $images = "";
 
 	public function get_project_from_type($type="") {
-		
+
 		if($type=="") {
 			return $this->pdo->query("SELECT * FROM projects")->fetchAll(PDO::FETCH_ASSOC);
 		}
 		else
 		{
-			$stmt = $this->pdo->prepare("SELECT projects.id, projects.description, projects.tech, projects.able, projects.git, projects.file, projects.link, projects.title, projects.topImg FROM projects
+			$stmt = $this->pdo->prepare("SELECT projects.id, projects.description,projects.description_fr, projects.tech,projects.tech_fr, 
+						     projects.able, projects.able_fr, projects.git, projects.file, projects.link, projects.title,
+						     projects.topImg FROM projects
 						     INNER JOIN project_category_tag ON projects.id = project_category_tag.id_project       
 						     INNER JOIN project_category ON project_category_tag.id_category = project_category.id
 						     WHERE project_category.id =?;");
@@ -61,7 +63,7 @@ class Project extends Bdd{
 
 		<?php   } ?>
 
-			<img src='css/assets/projects/projects-slider/<?=$id?>/<?=$img?>' class='d-bloc w-100' alt='<?=pathinfo($img, PATHINFO_BASENAME)?>'/>
+			<img src='../css/assets/projects/projects-slider/<?=$id?>/<?=$img?>' class='d-bloc w-100' alt='<?=pathinfo($img, PATHINFO_BASENAME)?>'/>
 		</div>
 
 		<?php $count++; } 
