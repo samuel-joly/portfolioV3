@@ -1,4 +1,4 @@
-<?php session_start(); $_SESSION["lang"]=""; ?>
+<?php session_start(); $_SESSION["lang"]="en"; ?>
 <title>Joly Samuel</title>
 <link rel='stylesheet' type='text/css' href='../css/index.css'/>
 <link rel='stylesheet' type='text/css' href='../css/mediaQuery.css'/>

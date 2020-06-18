@@ -15,7 +15,7 @@ if(isset($_GET["action"])) {
 			
 			$return_value = [];
 			foreach($content as $project) {
-				include($_SESSION["lang"]."/view/projectView.php");
+				include("view/projectView.php");
 				$return_value[] .= $project_text;
 			}
 			echo json_encode($return_value);

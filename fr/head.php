@@ -39,9 +39,9 @@
 			<div class='col-lg-5 col-md-12 col-11 row d-flex justify-content-center justify-content-lg-start p-0 m-0'>
 
 				<p class='m-lg-0 m-md-2 m-sm-2 p-0 text-lg-left text-center col-md-12' id='head__descr' >
-					Un dévellopeur passionné <b>a la recherche d'une alternance</b> Pour la rentrée 2020.
+					Un dévellopeur passionné <b>a la recherche d'une alternance</b> pour la rentrée 2020.
 					Habitué aux outils web HTML5 CSS3 PHP et JS j'ai de l'expérience en Python et en C.
-					Curieux de nature, je suis toujer pret a apprendre de nouvelles technologies.
+					Curieux de nature, je suis toujour prêt à apprendre de nouvelles technologies.
 				</p>
 
 				<div class='col-12 d-lg-flex d-none justify-content-end align-items-center'>

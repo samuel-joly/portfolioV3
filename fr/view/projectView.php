@@ -48,9 +48,9 @@
 						</div>
 
 						<div class='col-lg-4 col-12 row p-2 d-flex justify-content-center' id='specs'>
-							<p class='col-12 m-lg-0 mt-2'><?=$project["description"]?></p>
-							<span class='col-lg-12 col-md-12 col-12'><?=$project["able"]?></span>
-							<span class='col-lg-12 col-md-12 col-12'><?=$project["tech"]?></span>
+							<p class='col-12 m-lg-0 mt-2'><?=$project["description_fr"]?></p>
+							<span class='col-lg-12 col-md-12 col-12'><?=$project["able_fr"]?></span>
+							<span class='col-lg-12 col-md-12 col-12'><?=$project["tech_fr"]?></span>
 						</div>
 
 					</div>
